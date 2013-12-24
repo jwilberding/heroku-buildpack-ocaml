@@ -5,7 +5,7 @@ set -e
 set -o pipefail
 
 ocaml_url=http://codefirst.org/mzp/ocaml-4.00.tgz
-opam_url=http://codefirst.org/mzp/opam-full-1.0.tgz
+opam_url=https://dl.dropboxusercontent.com/u/16671/opam.tar.gz
 opam_lib_url=http://codefirst.org/mzp/opam-lib.tgz
 
 BUILD_DIR=$1
